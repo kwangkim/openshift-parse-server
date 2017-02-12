@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "express": "*",
-    "parse-server": "^2.0.7"
+    "parse-server": "^2.3.3"
   },
   "devDependencies": {},
   "bundleDependencies": [],
