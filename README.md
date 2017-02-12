@@ -16,7 +16,7 @@ Create a nodejs application (you can name it anything via -a)
 Add the github nodejs-custom-version-openshift repository
 
     cd parseserver
-    git remote add upstream -m master git://github.com/ramr/nodejs-custom-version-openshift.git
+    git remote add upstream -m master git://github.com/kwangkim/openshift-parse-server.git
     git pull -s recursive -X theirs upstream master
 
 Optionally, specify the custom version of Node.js you want to run with (Default is v4.2.3). If you want to more later version of Node (example v4.2.42), you can change to that by just writing it to the end of the NODEJS_VERSION file and committing that change.
